@@ -1,0 +1,45 @@
+============================= test session starts ==============================
+platform linux -- Python 3.11.2, pytest-7.2.1, pluggy-1.0.0+repack -- /usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /home/ryan/testing-units-f25-just-a-mole
+collecting ... collected 37 items
+
+test_circle.py::testCircle::test_getArea PASSED                          [  2%]
+test_circle.py::testCircle::test_getAreaTwo PASSED                       [  5%]
+test_circle.py::testCircle::test_getCircumferenceNegative PASSED         [  8%]
+test_circle.py::testCircle::test_getCircumferencePositive PASSED         [ 10%]
+test_circle.py::testCircle::test_getCircumferenceZero PASSED             [ 13%]
+test_circle.py::testCircle::test_setRadiusNegative PASSED                [ 16%]
+test_circle.py::testCircle::test_setRadiusPositive PASSED                [ 18%]
+test_grader.py::TestDataProcessor::test_analyze_text_case_sensitive_palindrome PASSED [ 21%]
+test_grader.py::TestDataProcessor::test_analyze_text_complex_palindrome PASSED [ 24%]
+test_grader.py::TestDataProcessor::test_analyze_text_empty_string PASSED [ 27%]
+test_grader.py::TestDataProcessor::test_analyze_text_non_palindrome PASSED [ 29%]
+test_grader.py::TestDataProcessor::test_analyze_text_non_string_input_int PASSED [ 32%]
+test_grader.py::TestDataProcessor::test_analyze_text_non_string_input_list PASSED [ 35%]
+test_grader.py::TestDataProcessor::test_analyze_text_normal_string PASSED [ 37%]
+test_grader.py::TestDataProcessor::test_analyze_text_simple_palindrome PASSED [ 40%]
+test_grader.py::TestDataProcessor::test_analyze_text_single_word PASSED  [ 43%]
+test_grader.py::TestDataProcessor::test_analyze_text_whitespace_string PASSED [ 45%]
+test_grader.py::TestDataProcessor::test_analyze_text_with_numbers PASSED [ 48%]
+test_grader.py::TestDataProcessor::test_analyze_text_with_special_chars PASSED [ 51%]
+test_grader.py::TestDataProcessor::test_calculate_grade_A PASSED         [ 54%]
+test_grader.py::TestDataProcessor::test_calculate_grade_B PASSED         [ 56%]
+test_grader.py::TestDataProcessor::test_calculate_grade_C PASSED         [ 59%]
+test_grader.py::TestDataProcessor::test_calculate_grade_D PASSED         [ 62%]
+test_grader.py::TestDataProcessor::test_calculate_grade_F PASSED         [ 64%]
+test_grader.py::TestDataProcessor::test_calculate_grade_all_hundreds PASSED [ 67%]
+test_grader.py::TestDataProcessor::test_calculate_grade_all_zeros PASSED [ 70%]
+test_grader.py::TestDataProcessor::test_calculate_grade_boundary_A PASSED [ 72%]
+test_grader.py::TestDataProcessor::test_calculate_grade_boundary_B PASSED [ 75%]
+test_grader.py::TestDataProcessor::test_calculate_grade_boundary_C PASSED [ 78%]
+test_grader.py::TestDataProcessor::test_calculate_grade_boundary_D PASSED [ 81%]
+test_grader.py::TestDataProcessor::test_calculate_grade_empty_list PASSED [ 83%]
+test_grader.py::TestDataProcessor::test_calculate_grade_invalid_score_above_100 PASSED [ 86%]
+test_grader.py::TestDataProcessor::test_calculate_grade_invalid_score_negative PASSED [ 89%]
+test_grader.py::TestDataProcessor::test_calculate_grade_list_with_non_numeric PASSED [ 91%]
+test_grader.py::TestDataProcessor::test_calculate_grade_non_list_input PASSED [ 94%]
+test_grader.py::TestDataProcessor::test_calculate_grade_single_score PASSED [ 97%]
+test_grader.py::TestDataProcessor::test_calculate_grade_with_floats PASSED [100%]
+
+============================== 37 passed in 0.03s ==============================
